@@ -22,8 +22,8 @@ export const GET = async (req: Request) => {
 
     const payload: ActionGetResponse = {
       title: "Donate USDC to adlonymous",
-      icon: new URL("/smb.png", requestUrl.origin).toString(),
-      description: `Help me write more easily understandable technical content by donating to ${DEFAULT_SOL_ADDRESS.toBase58()}`,
+      icon: new URL("/carwiforange.jpg", requestUrl.origin).toString(),
+      description: `Zo Zo Zo`,
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
         actions: [

@@ -30,8 +30,8 @@ export const GET = async (req: Request) => {
 
     const payload: ActionGetResponse = {
       title: "Donate SOL",
-      icon: new URL("/smb.png", requestUrl.origin).toString(),
-      description: "Donate SOL to support my mildly technical content on Solana & Blockchains",
+      icon: new URL("/carwiforange.jpg", requestUrl.origin).toString(),
+      description: "Zo Zo Zo",
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
         actions: [
